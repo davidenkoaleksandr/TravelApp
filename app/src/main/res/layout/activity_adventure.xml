@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/rectangle_15"
-    tools:context=".TravelActivity">
+    tools:context=".AdventureActivity">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -184,7 +184,7 @@
         app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
         app:layout_constraintStart_toStartOf="@+id/rectangle_3"
         app:layout_constraintTop_toTopOf="@+id/rectangle_3"
-        app:srcCompat="@drawable/rectangle_32" />
+        app:srcCompat="@drawable/rectangle_32_1_" />
 
     <TextView
         android:id="@+id/textView19"

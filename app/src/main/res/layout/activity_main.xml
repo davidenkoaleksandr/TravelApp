@@ -8,68 +8,6 @@
     android:background="@drawable/splashscreen"
     tools:context=".MainActivity">
 
-    <View
-        android:id="@+id/rectangle_3"
-        android:layout_width="315dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/rectangle_29"
-        app:layout_constraintBottom_toTopOf="@+id/textViewSkip"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <View
-        android:id="@+id/rectangle_2"
-        android:layout_width="315dp"
-        android:layout_height="54dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/rectangle_28"
-        app:layout_constraintBottom_toTopOf="@+id/rectangle_3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/raleway_semibold"
-        android:text="Sign In"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_2"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_2"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/raleway_semibold"
-        android:text="Create an account"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
-        app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
-        app:layout_constraintStart_toStartOf="@+id/rectangle_3"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_3" />
-
-    <TextView
-        android:id="@+id/textViewSkip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        android:fontFamily="@font/raleway_semibold"
-        android:text="Skip"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -84,4 +22,46 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/create_acc" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sign_in" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textViewSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:fontFamily="@font/raleway_semibold"
+            android:gravity="center_horizontal"
+            android:text="Skip"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
