@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/mask_group" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/addPlaceBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
